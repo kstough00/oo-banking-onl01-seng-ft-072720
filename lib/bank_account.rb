@@ -31,5 +31,6 @@ class BankAccount
     @balance
   end
   
+end
   
 end
