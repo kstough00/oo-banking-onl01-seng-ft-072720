@@ -28,8 +28,9 @@ class Transfer
       @sender.deposit( @amount * -1 ) 
       @receiver.deposit( @amount )
       @status = "complete"
+      binding.pry
     end
- binding.pry
+ 
   end
   
   
