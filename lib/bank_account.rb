@@ -14,7 +14,6 @@ class BankAccount
   end
   
   def display_balance
-<<<<<<< HEAD
     "Your balance is $#{balance}."
   end
   
@@ -29,11 +28,8 @@ class BankAccount
   def close_account
     @status = "closed"
   end
-=======
     @balance
   end
   
-  
->>>>>>> c638391cd69f6b42424cc87ed662882c287ff39f
   
 end
